@@ -1,9 +1,8 @@
 <?php
 
 interface Alertable {
-// interface de Participable
-    public function participer ();
-    public function quitter();
+// interface de Alertable
+public function alerterAnnulation($cours);
 }
 
 ?>
