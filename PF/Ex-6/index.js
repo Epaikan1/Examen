@@ -19,8 +19,7 @@ function calculatePouboir(amount, rating) {
     return Math.ceil(pourboireAmount);
 }
 
-
-console.log("Excellent service, vous donnez 20% de " ,calculatePouboir(50, "excellent"));  // 20
+console.log(calculatePouboir(50, "excellent"));  // 20
 console.log(calculatePouboir(20, "poor"));  // 5
 console.log(calculatePouboir(100, "good"));  // 10
 console.log(calculatePouboir(100, "erreur"));  // message erreur "Rating not recognised"
