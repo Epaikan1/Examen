@@ -4,5 +4,6 @@ function squareDigits(number) {
 
 // Exemple d'utilisation avec donné dans le exerice
 
+
 const exemple =9119
 console.log(squareDigits(exemple));  // 811181
