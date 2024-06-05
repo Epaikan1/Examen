@@ -8,12 +8,12 @@ include_once 'EtudiantAlertable.php';
 
 $individus = [];
 $individus[] = new Etudiant("Dupont", "Jean", 1, date("Y-m-d"), "Licence");
-$individus[] = new Enseignant("Martin", "Pierre", 2, "Math?matiques", 2500.00);
+$individus[] = new Enseignant("Martin", "Pierre", 2, "Mathï¿½matiques", 2500.00);
 
 foreach ($individus as $individu) {
     $individu->montrerDetails();
 }
-// Exemple de doneées cours
+// Exemple de doneÃ©es cours
 $cours1 = new Cours("Informatique", "Dr. Smith", 40, 30);
 $cours1 = new Cours("Informatique", "Dr. Smith", 40, 30);
 $cours1 = new Cours("Informatique", "Dr. Smith", 40, 30);
@@ -23,9 +23,9 @@ $etudiant->participer($cours1);
 $cours1->montrerDetails();
 $etudiant->quitter($cours1);
 $cours1->montrerDetails();
-// Exemple de doneées Administrateur dont prof
+// Exemple de doneÃ©es Administrateur dont prof
 $admin = new Administrateur("Admin", "Admin", 3, "Gestion", 3000.00);
-// Exemple de doneées Etudiant
+// Exemple de doneÃ©es Etudiant
 
 $etudiantAlertable = new EtudiantAlertable("Dupont", "Jean", 1, date("Y-m-d"), "Licence");
 
