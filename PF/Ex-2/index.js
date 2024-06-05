@@ -1,4 +1,4 @@
-function NbRepasOptions(developers) {
+function nbRepasOptions(developers) {
     const foodCount = {};
 
     developers.forEach(developer => {
@@ -20,4 +20,4 @@ const list1 = [
     {FirstName: 'George', lastName: 'B.', pays: 'Angleterre', continent: 'Europe', age: 81, langue: 'C', Repas: 'végétarien'},
 ];
 
-console.log(NbRepasOptions(list1)); // { 'végétarien': 2, standard: 1, vegan: 1 }
+console.log(nbRepasOptions(list1)); // { 'végétarien': 2, standard: 1, vegan: 1 }
